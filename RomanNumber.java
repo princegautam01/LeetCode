@@ -24,4 +24,9 @@ public class RomanNumber {
         
         return sum;
     }
+    public static void main(String[] args) {
+        String roman = "MCMXCIV";
+        RomanNumber romanNum = new RomanNumber();
+         System.out.println(romanNum.romanToInt(roman));
+    }
 }
