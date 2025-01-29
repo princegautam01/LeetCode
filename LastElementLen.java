@@ -5,10 +5,4 @@ public class LastElementLen {
         count = words[words.length-1].length();
     return count;
 }
-    public static void main(String[] args) {
-        String str = "   fly me   to   the moon  ";
-        LastElementLen le = new LastElementLen();
-        int count = le.lengthOfLastWord(str);
-        System.out.println(count);
-    }
 }
